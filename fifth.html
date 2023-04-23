@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>GhibliRUS</title>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT&family=Roboto+Condensed:wght@300;400&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT&family=Roboto+Condensed:wght@300&display=swap");
+      li {
+        list-style-type: none;
+      }
+      th {
+        text-align: left;
+        vertical-align: top;
+      }
+    </style>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="head" id="site-header">
+      <section class="header-banner">
+        <a class="header-logo" title="Home" href="index.html">
+          <div class="logo image">
+            <img
+              src="/images/label.svg.png"
+              weight="420"
+              height="215"
+              alt=""
+              hrev="index.html"
+            />
+          </div>
+        </a>
+        <div class="header_banner_main">
+          <lobo>
+            <script language="javascript" type="text/javascript" class="date">
+              var d = new Date();
+
+              var day = new Array(
+                "Воскресенье",
+                "Понедельник",
+                "Вторник",
+                "Среда",
+                "Четверг",
+                "Пятница",
+                "Суббота"
+              );
+
+              var month = new Array(
+                "Январь",
+                "Февраль",
+                "Март",
+                "Апрель",
+                "Май",
+                "Июнь",
+                "Июль",
+                "Август",
+                "Сентябрь",
+                "Октябрь",
+                "Ноябрь",
+                "Декабрь"
+              );
+
+              document.write(
+                day[d.getDay()] +
+                  ", " +
+                  month[d.getMonth()] +
+                  " " +
+                  d.getDate() +
+                  ", " +
+                  " " +
+                  d.getFullYear()
+              );
+            </script>
+          </lobo>
+          <p class="logo-text">STUDIO GHIGLI</p>
+          <p class="under-text">АНИМАЦИОННАЯ СТУДИЯ</p>
+        </div>
+      </section>
+      <section class="nav">
+        <div class="nav_back">
+          <a class="nav_link1" href="sec.html">О СТУДИИ</a>
+
+          <a class="nav_link" href="third.html">РАБОТЫ</a>
+          <a class="nav_link" href="fourth.html">ИСТОРИЯ</a>
+          <a class="nav_link" href="fifth.html" style="color: #168145"
+            >ОБСУЖДЕНИЕ</a
+          >
+        </div>
+      </section>
+    </header>
+    <div class="osnova">
+      <div class="site-inner">
+        <div class="top_form">
+          <p class="zagolovok">Имя Фамилия</p>
+          <p class="small-text">
+            Фильмы меня поразили своим великолепием! Всем советую для
+            ознакомления. <br />
+            Особенно мне понравился ходячий замок!! Очень всё красиво
+            нарисованно. Ах, а какой сюжет. <br />
+            КАКОЙ СЮЖЕТ! Невозможно описать лишь словами.
+          </p>
+        </div>
+        <div class="bot_form">
+          <p class="zagolovok">Имя Фамилия</p>
+          <p class="small-text">
+            Фильмы меня поразили своим великолепием! Всем советую для
+            ознакомления. <br />
+            Особенно мне понравился ходячий замок!! Очень всё красиво
+            нарисованно. Ах, а какой сюжет. <br />
+            КАКОЙ СЮЖЕТ! Невозможно описать лишь словами.
+          </p>
+        </div>
+        <a class="back-to-index" title="Home" href="index.html"
+          >Вернуться на главную страницу</a
+        >
+      </div>
+      <div class="site-right">
+        <div class="in-box">
+          <form action="" class="ffoorm" method="post">
+            <a name="form"></a>
+            <div class="f_">
+              <p class="avtor">АВТОРИЗАЦИЯ</p>
+              <div class="form_item">
+                <label for="formName" class="form_label"></label>
+                <input
+                  type="text"
+                  id="formName"
+                  class="form_input"
+                  placeholder="Ваше имя*"
+                  required
+                />
+                <input
+                  type="text"
+                  id="formName"
+                  class="form_input"
+                  required
+                  placeholder="Ваша Фамилия*"
+                />
+                <input
+                  type="text"
+                  id="formName"
+                  class="form_input"
+                  required
+                  placeholder="Email*"
+                />
+              </div>
+            </div>
+
+            <button class="button">ВОЙТИ</button>
+          </form>
+          <button class="button_2">РЕГИСТРАЦИЯ</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
